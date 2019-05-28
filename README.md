@@ -19,7 +19,7 @@ npm install '@sixphere/diwrapper' --save
 ```
 
 ## How to use?
-The centerpiece of the dependency injector is the '__inject' method. Your class must implement a method with this name and the needed arguments. The library use this method to inject the builded instances.
+The centerpiece of the dependency injector is the `__inject` method. Your class must implement a method with this name and the needed arguments. The library use this method to inject the builded instances.
 
 ```javascript
 // dummy-component.js
@@ -47,9 +47,9 @@ Specify the class and his dependecies.
 ```javascript
 // index.js
 let ComposedDummyComponent = DIWrapper.for(DummyComponent).bind([
-                        { constructor: DummyService1, args: [] }, 
-                        { constructor: DummyService2, args: [] },
-                    ])
+                                { constructor: DummyService1, args: [] }, 
+                                { constructor: DummyService2, args: [] },
+                            ])
 ```
 
 ## License
