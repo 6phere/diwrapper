@@ -12,5 +12,13 @@
     "web components"
   ],
   "author": "Sixphere Technologies",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6phere/diwrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/6phere/diwrapper/issues"
+  },
+  "homepage": "https://github.com/6phere/diwrapper#readme"
 }

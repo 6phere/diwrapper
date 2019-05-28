@@ -8,6 +8,9 @@
 [![Downloads][downloads-badge]][downloads-url]
 [![Total downloads][total-downloads-badge]][downloads-url]
 
+[![Packagephobia][packagephobia-badge]][packagephobia-url]
+[![Bundlephobia][bundlephobia-badge]][bundlephobia-url]
+
 ------------------------------------------------------------------
 
 Dependency injection lightweight library that allows you inject any service instance in any class in a fast and easy way.
@@ -69,24 +72,26 @@ let ComposedDummyComponent = DIWrapper.for(DummyComponent).bind([
 <!-- Badges -->
 <!-- [follow-me-badge]: https://flat.badgen.net/twitter/follow/Fernando Jiménez?icon=twitter -->
 
-[version-badge]: https://flat.badgen.net/npm/v/diwrapper?icon=npm
+[version-badge]: https://flat.badgen.net/npm/v/@sixphere/diwrapper?icon=npm
 [lit-element-version-badge]: https://flat.badgen.net/npm/v/lit-element/latest?icon=npm&label=lit-element
-[node-version-badge]: https://flat.badgen.net/npm/node/diwrapper
-[mit-license-badge]: https://flat.badgen.net/npm/license/diwrapper
+[node-version-badge]: https://flat.badgen.net/npm/node/@sixphere/diwrapper
+[mit-license-badge]: https://flat.badgen.net/npm/license/@sixphere/diwrapper
 
-[downloads-badge]: https://flat.badgen.net/npm/dm/diwrapper
-[total-downloads-badge]: https://flat.badgen.net/npm/dt/diwrapper?label=total%20downloads
-[packagephobia-badge]: https://flat.badgen.net/packagephobia/install/diwrapper
-[bundlephobia-badge]: https://flat.badgen.net/bundlephobia/minzip/diwrapper
+[downloads-badge]: https://flat.badgen.net/npm/dm/@sixphere/diwrapper
+[total-downloads-badge]: https://flat.badgen.net/npm/dt/@sixphere/diwrapper?label=total%20downloads
+[packagephobia-badge]: https://flat.badgen.net/packagephobia/install/@sixphere/diwrapper
+[bundlephobia-badge]: https://flat.badgen.net/bundlephobia/minzip/@sixphere/diwrapper
 
 <!-- Links -->
 <!-- [follow-me-url]: https://twitter.com/Fernando Jiménez?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=diwrapper -->
 
-[version-url]: https://www.npmjs.com/package/diwrapper
+[version-url]: https://www.npmjs.com/package/@sixphere/diwrapper
 [node-version-url]: https://nodejs.org/en/download
 [mit-license-url]: /LICENSE
 
-[downloads-url]: https://www.npmtrends.com/diwrapper
+[downloads-url]: https://www.npmtrends.com/@sixphere/diwrapper
+[packagephobia-url]: https://packagephobia.now.sh/result?p=@sixphere/diwrapper
+[bundlephobia-url]: https://bundlephobia.com/result?p=@sixphere/diwrapper
 
 [circleci-url]: https://circleci.com/gh//diwrapper/tree/master
 [daviddm-url]: https://david-dm.org//diwrapper
