@@ -1,0 +1,2 @@
+export { DIWrapper } from './diwrapper';
+
