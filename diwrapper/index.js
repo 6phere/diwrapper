@@ -29,7 +29,7 @@ class DIWrapper {
     static for(klass){
         return {
             /**
-             * Return a subclass in order to inject the given dependencies to the class (@see DIWrapper.for) 
+             * Return a subclass in order to inject the given dependencies to the class
              */
             bind: deps => __createInjectorSubclass(klass, deps)
         }
