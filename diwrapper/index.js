@@ -36,4 +36,4 @@ class DIWrapper {
     }
 }
 
-export default DIWrapper
+export { DIWrapper }
