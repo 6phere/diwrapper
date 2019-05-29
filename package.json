@@ -1,6 +1,6 @@
 {
   "name": "@sixphere/diwrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dependency injection lightweight library.",
   "main": "index.js",
   "module": "index.js",
